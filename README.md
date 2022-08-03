@@ -49,3 +49,113 @@
 
 `{$currency.iso_code_num}` ISO code number of the currency in use (978 for Euro, 840 for American Dollar, etc.)
 
+## Pages and elements of the e-commerce site
+
+`{$urls.base_url}` Store web address (example: https://www.claudioalcantara.com)
+
+`{$urls.current_url}` Current web address (url), the page we are viewing
+
+`{$urls.shop_domain_url}` Store domain
+
+`{$urls.img_ps_url}` Image root directory url
+
+`{$urls.img_cat_url}` Url of the categories images directory
+
+`{$urls.img_lang_url}` Url of the languages images directory
+
+`{$urls.img_prod_url}` Url of the products images directory
+
+`{$urls.img_manu_url}` Url of manufacturers images directory
+
+`{$urls.img_sup_url}` Url of providers images directory
+
+`{$urls.img_ship_url}` Url of carriers images directory
+
+`{$urls.img_store_url}` Url of physical store images directory
+
+`{$urls.img_url}` Url of theme images directory
+
+`{$urls.css_url}` Url of css files directory used by the theme
+
+`{$urls.js_url}` Url of javascript files directory used by the theme
+
+`{$urls.pic_url}` Url of file uploaded directory
+
+`{$page.page_name}` Page Name (file template)
+
+`{$page.meta.title}` Page Title (SEO)
+
+`{$page.meta.description}` Tag description content (SEO)
+
+`{$page.meta.keywords}` Tag keywords content (SEO)
+
+`{$page.meta.robots}` Rule for search engines: blocks or not the page indexing  (SEO)
+
+`{$page.canonical}` Indicates the canonical (main) URL to avoid duplication of contents (SEO)
+
+`{$urls.pages.address}` Url of the "My Address" section (registered user)
+
+`{$urls.pages.addresses}` Url of the "My addresses" section (registered user)
+
+`{$urls.pages.authentication}` Url of the authentication page
+
+`{$urls.pages.cart}` Url of cart page (order summary)
+
+`{$urls.pages.category}` Url of the category
+
+`{$urls.pages.cms}` Url of the page (type CMS)
+
+`{$urls.pages.contact}` Url of the contact page
+
+`{$urls.pages.discount}` Url of the discount voucher page
+
+`{$urls.pages.guest_tracking}` Tracking url for unregistered clients
+
+`{$urls.pages.history}` Url of the "Order History" page (registered user)
+
+`{$urls.pages.identity}` Url of the "Personal data" page (registered user)
+
+`{$urls.pages.index}` Home page url
+
+`{$urls.pages.my_account}` Url of "My Account" page (registered user)
+
+`{$urls.pages.order_confirmation}` Url of the "Order Confirmation" page
+
+`{$urls.pages.order_follow}` Url in the "Order Tracking" (registered user)
+
+`{$urls.pages.order}` Url of the "Order" page
+
+`{$urls.pages.order_return}` Url of the "Order Return" page
+
+`{$urls.pages.order_slip}` Url of the "Order Slip" page
+
+`{$urls.pages.pagenotfound}` Url of the "404 - Page not found"
+
+`{$urls.pages.password}` Url of "Recover Password" page
+
+`{$urls.pages.pdf_invoice}` Url of Pdf invoice
+
+`{$urls.pages.pdf_order_return}` Url of Pdf order return
+
+`{$urls.pages.pdf_order_slip}` Url of Pdf order slip
+
+`{$urls.pages.prices_drop}` Url of "Our Offers" page 
+
+`{$urls.pages.product}` Url of the "Product" page
+
+`{$urls.pages.search}` Url of the "Search" page
+
+`{$urls.pages.sitemap}` Url of thr "Site Map" page
+
+`{$urls.pages.stores}` Url of the "Shops/Our stores" page
+
+`{$urls.pages.supplier}` Url of the "Suppliers" page
+
+`{$urls.pages.register}` Url of the "Register" page 
+
+`{$urls.pages.order_login}` Url of the "Login" page
+
+`{$urls.theme_assets}` Url of the "assets" directory of the theme
+
+`{$urls.actions.logout}` Url to disconnect from the site (registered user)
+
