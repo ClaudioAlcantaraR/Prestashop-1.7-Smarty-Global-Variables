@@ -182,3 +182,71 @@
 `{$cart.subtotals.shipping.amount}` The amount of shipping in the cart without currency
 
 `{$cart.subtotals.shipping.value}` The amount of shipping in the cart with currency
+
+## Customers
+
+{$customer.lastname} Customer Last Name
+
+{$customer.firstname} Customer First Name
+
+{$customer.email} Customer Email (provided during the registration)
+
+{$customer.birthday} Customer Birthday
+
+{$customer.newsletter} Subscribed to the newsletter (1 if subscribed, 0 if unsubscribed)
+
+{$customer.newsletter_date_add} Newsletter subscription date
+
+{$customer.ip_registration_newsletter} IP of Customers at the newsletter registration
+
+{$customer.optin} Subscribed to offers from partners (1 if subscribed, 0 if unsubscribed)
+
+{$customer.date_add} Customer registration
+
+{$customer.date_upd} Last updated (customer registration)
+
+{$customer.id} Customer ID
+
+{$customer.id_default_group} ID group to which the client is associated
+
+{$customer.is_logged} Check if the client is "logged in" (1 yes, 0 no)
+
+{$customer.gender.name[$customer.gender.id]} Client Gender (example: Ms, Mr, etc.)
+
+{$customer.addresses[AddressID].city} Client City of address with an ID (AddressID, example 8, where 8 is the ID of the customer's address), because a client could have multiple addresses)
+
+{$customer.addresses[AddressID].alias} Address alias
+
+{$customer.addresses[AddressID].firstname} Address Holder first name
+
+{$customer.addresses[AddressID].lastname} Address Holder last name
+
+{$customer.addresses[AddressID].company} Address Holder company
+
+{$customer.addresses[AddressID].address1} Address Holder address 1
+
+{$customer.addresses[AddressID].address2} Address Holder address 2
+
+{$customer.addresses[AddressID].postcode} Address Holder ZIP code
+
+{$customer.addresses[AddressID].id_state} Address Holder ID state
+
+{$customer.addresses[AddressID].state} Address Holder state name
+
+{$customer.addresses[AddressID].state_iso} Address Holder state ISO code
+
+{$customer.addresses[AddressID].id_country} Address Holder ID country
+
+{$customer.addresses[AddressID].country} Address Holder country name
+
+{$customer.addresses[AddressID].country_iso} Address Holder ISO country
+
+{$customer.addresses[AddressID].phone} Address Holder telephone
+
+{$customer.addresses[AddressID].phone_mobile} Address Holder mobile phone
+
+{$customer.addresses[AddressID].dni} Address Holder DNI
+
+{$customer.addresses[AddressID].vat_number} Address Holder VAT number
+
+{$customer.addresses[AddressID].formatted} Address Holder formatted address
