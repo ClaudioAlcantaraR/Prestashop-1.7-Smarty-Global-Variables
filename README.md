@@ -26,3 +26,20 @@
 `{$shop.phone}` Store Telephone
 
 `{$shop.fax}` Store Fax
+
+## Language
+
+`$language.name}` Name of the language in use (example: English) 
+
+`{$language.iso_code}` ISO code of the language in use (it for Italian, fr for French, etc.)
+
+`{$language.language_code}` Code of the language in use (it for Italian, en-us for American English, etc.)
+
+`{$language.is_rtl}` (1 when language is written from right to left; 0 if from left to right)  
+
+`{$language.id}` ID value of the language in use
+
+## Currency
+
+
+
