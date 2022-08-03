@@ -41,5 +41,11 @@
 
 ## Currency
 
+`{$currency.name}` Name of the currency in use (Euro, American Dollar, etc.)
 
+`{$currency.iso_code}` Currency ISO code of the currency in use (Eur, USD, etc.)
+
+`{$currency.sign}` Symbol of the currency in use (€, $, etc.) 
+
+`{$currency.iso_code_num}` ISO code number of the currency in use (978 for Euro, 840 for American Dollar, etc.)
 
