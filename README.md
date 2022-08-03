@@ -5,6 +5,7 @@
 ## General info about your online store
 
 `{$shop.name}` Store name
+
 `{$shop.email}` Store Email
 {$shop.logo} Store logo
 {$shop.favicon} Store icon (map, title of the browser window, etc.)
