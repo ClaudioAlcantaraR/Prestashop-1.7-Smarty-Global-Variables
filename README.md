@@ -159,3 +159,17 @@
 
 `{$urls.actions.logout}` Url to disconnect from the site (registered user)
 
+## Cart
+
+`{$cart.totals.total.amount}` The total amount of the cart without currency (ex: 45,00)
+
+{$cart.totals.total.value} The total amount of the cart with currency (ex: 45,00 €)
+{$cart.totals.total_including_tax.amount} The total amount of the cart, including taxes, without currency (ex: 45,00)
+{$cart.totals.total_including_tax.value} The total amount of the cart, including taxes, with currency (ex: 45,00 €)
+{$cart.totals.total_excluding_tax.amount} The total amount of the cart, excluding taxes, without currency (esempio: 35,70)
+{$cart.totals.total_excluding_tax.value} The total amount of the cart, excluding taxes, with currency (esempio: 35,70 €)
+{$cart.products_count} Number of products in the cart
+{$cart.subtotals.products.amount} The amount of products in the cart without currency
+{$cart.subtotals.products.value} The amount of products in the cart withcurrency
+{$cart.subtotals.shipping.amount} The amount of shipping in the cart without currency
+{$cart.subtotals.shipping.value} The amount of shipping in the cart with currency
